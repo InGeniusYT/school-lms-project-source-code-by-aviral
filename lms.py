@@ -1,5 +1,5 @@
 import mysql-connector-python # pip install mysql-connector-python
-import mysql.connector # pip install mysql.connector
+import mysql.connector # pip install mysql-connector
 
 class Library:
     def __init__(self, listOfBooks):
