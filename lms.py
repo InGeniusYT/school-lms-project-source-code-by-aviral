@@ -31,7 +31,7 @@ class Student:
          
 
 if __name__ == "__main__":
-    centraLibrary = Library(["Algorithms", "Django", "Clrs", "Python Notes"])
+    centraLibrary = Library(["AA", "YY", "XX", "ZZ"])
     student = Student()
     # centraLibrary.displayAvailableBooks()
     while(True):
@@ -51,7 +51,7 @@ if __name__ == "__main__":
         elif a == 3:
             centraLibrary.returnBook(student.returnBook())
         elif a == 4:
-            print("Thanks for choosing Central Library. Have a great day ahead!")
+            print("Have great day ahead!")
             exit()
         else:
             print("Invalid Choice!")
